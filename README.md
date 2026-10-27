@@ -13,3 +13,21 @@ A before-and-after 3D model of the Assize Courts, Devizes, Wiltshire, which Wilt
 - Architectural information from Purcell's planning drawings, traced as reference only; no drawings are included.
 
 See [CREDITS_AND_LICENSE.md](CREDITS_AND_LICENSE.md). Model code: MIT, © 2026 Tim Daw.
+
+## How to help
+
+This is an unofficial, amateur reconstruction. It is version 1, made without specialist tools, so it will have mistakes.
+
+**Spotted an error?** If something is wrong, such as windows, heights or missing details, please report it through <a href="https://github.com/TimDaw37/assize-courts-3d/issues" target="_blank" rel="noopener noreferrer">GitHub Issues</a> or in the comments on my <a href="https://www.sarsen.org/" target="_blank" rel="noopener noreferrer">sarsen.org blog</a>.
+
+**Most wanted:**
+- Interior photos
+- The cells
+- Cornice and moulding details
+- Historic photos
+
+When you send images, please confirm that you own the rights to them or that they are out of copyright.
+
+**Pull requests are welcome.** You are free to fork, reuse and share the model under the MIT licence. Please keep the data credits: EA LiDAR (OGL), OpenStreetMap (ODbL), Historic England and Ordnance Survey.
+
+Please don't upload the planning PDFs or drawings to this repository.
