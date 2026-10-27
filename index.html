@@ -903,7 +903,7 @@ const dateSel=document.getElementById('date'), timeIn=document.getElementById('t
 const tLab=document.getElementById('t-lab'), tHl=document.getElementById('t-hl'), tFig=document.getElementById('t-fig');
 function applyState(){
   const ex=state==='existing';
-  grp.existing.visible=ex; grp.planned.visible=!ex; grp.approved.visible=state==='approved'; grp.amended.visible=state==='amended';
+  grp.base.visible=true; grp.existing.visible=ex; grp.planned.visible=!ex; grp.approved.visible=state==='approved'; grp.amended.visible=state==='amended';
   for(const o of outlines) o.visible=tHl.checked;
   grp.figures.visible=tFig.checked;
   glassList.forEach((m,i)=>{ if(m.userData.door) m.material=ex?M.board:M.door; else m.material=ex?(i%3===0?M.board:M.void):M.glass; });
